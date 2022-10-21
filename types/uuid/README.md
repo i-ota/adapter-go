@@ -8,7 +8,7 @@ It is a drop in replacement. Simply include this `replace` in `go.mod`.
 
 ```
 replace (
-	github.com/google/uuid => github.com/i-ota/adapter-go/types/uuid
+	github.com/google/uuid v1.3.0 => github.com/i-ota/adapter-go/types/uuid main
 )
 ```
 
